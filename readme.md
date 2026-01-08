@@ -72,3 +72,12 @@ Some basic information about the available endpoints is provided by Swagger at: 
 
 The logs are created in the `./logs` subfolder. They can be accessed via the endpoint:
 http://localhost:8080/actuator/logfile
+
+## CI Workflow
+
+GitHub Actions workflow:
+https://github.com/MaksymYoung/java-app/actions/workflows/ci.yml
+
+[![CI](https://github.com/MaksymYoung/java-app/actions/workflows/ci.yml/badge.svg)](
+https://github.com/MaksymYoung/java-app/actions/workflows/ci.yml
+)
