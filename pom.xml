@@ -19,15 +19,9 @@
 
     <properties>
         <java.version>17</java.version>
-
-        <!-- SonarCloud configuration -->
-        <sonar.organization>DevOps_testing_environment</sonar.organization>
-        <sonar.projectKey>maksymyoung_devops-testing-environment</sonar.projectKey>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
-        <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
-        <sonar.jacoco.reportPath>${project.basedir}/target/jacoco.exec</sonar.jacoco.reportPath>
         <sonar.language>java</sonar.language>
+        <sonar.projectKey>simplecrud</sonar.projectKey>
+        <sonar.host.url>http://localhost:9000</sonar.host.url> 
     </properties>
 
     <dependencies>
